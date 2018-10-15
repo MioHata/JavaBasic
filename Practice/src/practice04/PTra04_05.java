@@ -66,7 +66,6 @@ public class PTra04_05 {
 					continue;
 				}
 
-
 			} else {
 				System.out.println("パー！！");
 
@@ -77,8 +76,6 @@ public class PTra04_05 {
 				} else {
 					continue;
 				}
-
-
 			}
 
 		}
