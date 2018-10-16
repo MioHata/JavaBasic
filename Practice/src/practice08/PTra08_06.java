@@ -43,5 +43,4 @@ public class PTra08_06 {
 	public static void dispValue(char message) {
 		System.out.println("「"+message+"」");
 	}
-
 }
