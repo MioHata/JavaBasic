@@ -22,12 +22,13 @@ public class Car {
 	int gasoline;
 	
 	int run() {
+		
 		gasoline -= 1;
 		
 		if (this.gasoline < 0) {
 			return -1;
 		} else {
-		return new java.util.Random().nextInt(15)+1;
+			return new java.util.Random().nextInt(15)+1;
 		}
 	}
 }
