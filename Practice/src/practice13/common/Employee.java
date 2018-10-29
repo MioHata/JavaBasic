@@ -12,6 +12,7 @@ public class Employee extends Person{
 	 * 		各フィールドのアクセサ
 	 */
 
+	// フィールド
 	private String departmentNm;
 	private int departmentCnt;
 

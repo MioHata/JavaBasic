@@ -15,8 +15,8 @@ public class Item {
 	 * 		上記2つを設定するための引数を持つ
 	 */
 	// フィールド
-	String name;
-	int additionalDamage;
+	private String name;
+	private int additionalDamage;
 
 	// セッター
 	public void setName(String name) {

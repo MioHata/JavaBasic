@@ -25,9 +25,9 @@ public class PTra13_09 {
 
 	/** 部署データ（定数） */
 	public static final String[][] QUATERDATA = {
-														{"総務部","業務部","システム部"},
-														{"5","10","35"},
-													};
+			{"総務部","業務部","システム部"},
+			{"5","10","35"},
+	};
 
 	/**
 	 * エントリーポイント
@@ -35,13 +35,12 @@ public class PTra13_09 {
 	 */
 	public static void main(String[] args) {
 
-//		// ★ 定数で定義されている各データを使用して、Employeeインスタンスを３つ作成してください
+		//		// ★ 定数で定義されている各データを使用して、Employeeインスタンスを３つ作成してください
 
 
 		Employee employee1 = new Employee();
 		Employee employee2 = new Employee();
 		Employee employee3 = new Employee();
-
 		employee1.setUserNm(NAMEDATA[0]);
 		employee2.setUserNm(NAMEDATA[1]);
 		employee3.setUserNm(NAMEDATA[2]);
